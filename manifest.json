@@ -60,5 +60,17 @@
       "sizeBytes": 21076463
     }
   ],
-  "pending": []
+  "pending": [],
+  "notes": [
+    {
+      "path": "non-obvious-insights.md",
+      "note_id": "9c4a4fb6-7ed2-41e9-bae9-ab95845ae2cd",
+      "title": "Non-Obvious Insights"
+    },
+    {
+      "path": "essential-questions.md",
+      "note_id": "c2fbb144-0f53-4aff-b20c-5bef16325016",
+      "title": "Essential Questions"
+    }
+  ]
 }

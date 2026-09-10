@@ -34,6 +34,11 @@ the clean viewing copy and the PPTX the editable one. Infographic as full-resolu
 
 Provenance for every artifact is recorded in [manifest.json](manifest.json).
 
+## Studio Notes
+
+- 📝 [non-obvious-insights.md](non-obvious-insights.md) - five non-obvious insights (frameworks as psychological prompt-hacks, skills as a "smart zone" context budget, AI-accelerated entropy, Markdown as the control plane, verification bandwidth as the bottleneck) plus three tensions: TDD fundamentalism vs refactoring, autonomy vs developer agency, rigor vs token inflation.
+- 📝 [essential-questions.md](essential-questions.md) - the essential questions distilled from the notebook's research.
+
 ## Regenerating
 
 Point your own notebook at the research sources listed in [sources.md](sources.md) - add them, then generate the artifacts you want with `notebooklm generate`.
