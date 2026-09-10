@@ -48,14 +48,17 @@
       "slides": 15,
       "compression": "256-color adaptive palette on ppt/media/*, zip level 9",
       "sizeBytes": 8527110
+    },
+    {
+      "path": "videos/choose-your-ai-copilot.mp4",
+      "artifact_id": "687cd768-552c-4c88-8c52-2d159eba2bda",
+      "artifact_title": "Choose Your AI Co-Pilot: Which Coding Workflow Fits Your Stack?",
+      "artifact_type": "video",
+      "format": "mp4",
+      "duration_seconds": 384,
+      "compression": "ffmpeg x264/aac, max 720p",
+      "sizeBytes": 21076463
     }
   ],
-  "pending": [
-    {
-      "artifact_id": "687cd768-552c-4c88-8c52-2d159eba2bda",
-      "artifact_title": "Agent Skills: Senior Scaffolding for AI Engineering",
-      "artifact_type": "video",
-      "status": "in_progress"
-    }
-  ]
+  "pending": []
 }

@@ -13,6 +13,7 @@ Superpowers, and the VS Code Plan Agent.
 - 🖼 [ai-coding-agent-workflow-comparison.png](infographic/ai-coding-agent-workflow-comparison.png) 1.2 MB — Same infographic at 50% scale, as a PNG fallback for renderers without WebP support.
 - 📊 [architecting-agentic-workflows.pdf](slides/architecting-agentic-workflows.pdf) 2.2 MB — 15-slide deck *"Beyond Vibe Coding: Architecting Agentic Workflows for Production Engineering"*: why the agent's default path is the shortest path to technical debt, then one section per philosophy (VS Code Plan's native draftsman and handoff loop, Matt Pocock's grill-with-docs interrogator funnel, Obra's Superpowers sub-agent-driven assembly line, Addy Osmani's anti-rationalization governance board), closing on the workflow diagnostic matrix and the claim that you choose a philosophy, not a prompt.
 - 📊 [architecting-agentic-workflows.pptx](slides/architecting-agentic-workflows.pptx) 8.3 MB — Editable source of the deck.
+- 🎬 [choose-your-ai-copilot.mp4](videos/choose-your-ai-copilot.mp4) 6m 24s · 21MB — Studio video *"Choose Your AI Co-Pilot: Which Coding Workflow Fits Your Stack?"*: walks through matching each workflow philosophy (Osmani's governance board, Pocock's interrogation, Vincent's assembly line, VS Code's native plan agent) to your stack and risk tolerance.
 
 ## Compression
 
@@ -24,8 +25,9 @@ Assets were compressed with the `asset-compressor` skill.
 | Slide deck (PPTX) | 18.4 MB | 8.3 MB | 54.8% |
 | Infographic (WebP) | 4.4 MB | 261 KB | 94.2% |
 | Infographic (PNG, 50%) | 4.4 MB | 1.2 MB | 73.7% |
+| Video (MP4) | 54.2 MB | 20.6 MB | 62.0% |
 
-PDF via Ghostscript `/ebook` (150 dpi). PPTX via 256-color adaptive palette on `ppt/media/*`
+Video via FFmpeg x264/AAC scaled to a maximum of 720p. PDF via Ghostscript `/ebook` (150 dpi). PPTX via 256-color adaptive palette on `ppt/media/*`
 at original dimensions, re-zipped at ZIP level 9 — the deck is image-per-slide, so the PDF is
 the clean viewing copy and the PPTX the editable one. Infographic as full-resolution WebP
 (quality 70, 2752×1536) plus a 50%-scale PNG (quality 80, 1376×768) fallback.
@@ -39,7 +41,8 @@ notebooklm download infographic AI-Coding-Agent-Workflow-Comparison.png \
   -a 4f18a952-91c8-4bd8-805c-896057d90c56 -n 3dd2f0fe-4288-4dbf-8b31-d8e13fec494f
 notebooklm download slide-deck Architecting-Agentic-Workflows.pdf \
   -a 678c9b27-11c4-41c5-a059-df339bc2c515 -n 3dd2f0fe-4288-4dbf-8b31-d8e13fec494f
+notebooklm download video Choose-Your-AI-Co-Pilot.mp4 \
+  -a 687cd768-552c-4c88-8c52-2d159eba2bda -n 3dd2f0fe-4288-4dbf-8b31-d8e13fec494f
 ```
 
-The notebook also holds a video artifact, *Agent Skills: Senior Scaffolding for AI Engineering*,
-still generating at the time of the last export.
+The notebook's research sources are listed in [sources.md](sources.md).
