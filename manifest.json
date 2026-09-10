@@ -1,0 +1,61 @@
+{
+  "notebook": {
+    "id": "3dd2f0fe-4288-4dbf-8b31-d8e13fec494f",
+    "title": "Agent Skills: Senior Scaffolding for AI Engineering",
+    "url": "https://notebook.google.com/notebook/3dd2f0fe-4288-4dbf-8b31-d8e13fec494f"
+  },
+  "exported_at": "2026-09-10",
+  "assets": [
+    {
+      "path": "infographic/ai-coding-agent-workflow-comparison.webp",
+      "artifact_id": "4f18a952-91c8-4bd8-805c-896057d90c56",
+      "artifact_title": "AI Coding Agent Workflow Comparison",
+      "artifact_type": "infographic",
+      "variant": "primary",
+      "format": "webp",
+      "dimensions": "2752x1536",
+      "quality": 70,
+      "sizeBytes": 266980
+    },
+    {
+      "path": "infographic/ai-coding-agent-workflow-comparison.png",
+      "artifact_id": "4f18a952-91c8-4bd8-805c-896057d90c56",
+      "artifact_title": "AI Coding Agent Workflow Comparison",
+      "artifact_type": "infographic",
+      "variant": "fallback",
+      "format": "png",
+      "dimensions": "1376x768",
+      "scale": "50%",
+      "quality": 80,
+      "sizeBytes": 1228459
+    },
+    {
+      "path": "slides/architecting-agentic-workflows.pdf",
+      "artifact_id": "678c9b27-11c4-41c5-a059-df339bc2c515",
+      "artifact_title": "Architecting Agentic Workflows",
+      "artifact_type": "slide_deck",
+      "format": "pdf",
+      "pages": 15,
+      "compression": "ghostscript /ebook 150dpi",
+      "sizeBytes": 2212441
+    },
+    {
+      "path": "slides/architecting-agentic-workflows.pptx",
+      "artifact_id": "678c9b27-11c4-41c5-a059-df339bc2c515",
+      "artifact_title": "Architecting Agentic Workflows",
+      "artifact_type": "slide_deck",
+      "format": "pptx",
+      "slides": 15,
+      "compression": "256-color adaptive palette on ppt/media/*, zip level 9",
+      "sizeBytes": 8527110
+    }
+  ],
+  "pending": [
+    {
+      "artifact_id": "687cd768-552c-4c88-8c52-2d159eba2bda",
+      "artifact_title": "Agent Skills: Senior Scaffolding for AI Engineering",
+      "artifact_type": "video",
+      "status": "in_progress"
+    }
+  ]
+}
