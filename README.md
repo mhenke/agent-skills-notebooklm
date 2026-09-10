@@ -36,13 +36,4 @@ Provenance for every artifact is recorded in [manifest.json](manifest.json).
 
 ## Regenerating
 
-```bash
-notebooklm download infographic AI-Coding-Agent-Workflow-Comparison.png \
-  -a 4f18a952-91c8-4bd8-805c-896057d90c56 -n 3dd2f0fe-4288-4dbf-8b31-d8e13fec494f
-notebooklm download slide-deck Architecting-Agentic-Workflows.pdf \
-  -a 678c9b27-11c4-41c5-a059-df339bc2c515 -n 3dd2f0fe-4288-4dbf-8b31-d8e13fec494f
-notebooklm download video Choose-Your-AI-Co-Pilot.mp4 \
-  -a 687cd768-552c-4c88-8c52-2d159eba2bda -n 3dd2f0fe-4288-4dbf-8b31-d8e13fec494f
-```
-
-The notebook's research sources are listed in [sources.md](sources.md).
+Point your own notebook at the research sources listed in [sources.md](sources.md) - add them, then generate the artifacts you want with `notebooklm generate`.
